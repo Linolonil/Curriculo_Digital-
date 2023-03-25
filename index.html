@@ -4,41 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/curriculo.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
-    <title>Curriculo Digital..</title>
+    <title>Curriculo Digital</title>
   </head>
+
   <body>
     <div class="container">
-      <nav>
-        <ul>
-          <picture
-            ><img
-              src="./assets/profile_picture.jpeg"
-              alt="profile 
-            picture Lino Jorge"
-          /></picture>
-          <li>Sobre</li>
-          <li>Conhecimentos</li>
-          <li>Objetivo</li>
+      <nav class="navbar">
+        <figure class="profile_picture">
+          <img
+            class="picture_lino"
+            src="assets/lino.jpeg"
+            alt="Lino Jorge Foto"
+          />
+        </figure>
+        <ul class="navbar_ul">
+          <li><a class="nav-text" href="#">Sobre</a></li>
+          <li>
+            <a class="nav-text" href="conhecimentos.html">Conhecimentos</a>
+          </li>
+          <li><a class="nav-text" href="#">Objetivo</a></li>
         </ul>
       </nav>
-      <main>
-        <h1>Lino Jorge Bittencourt da Silva</h1>
-        <h3>
-          Rua felismino Soares, 47. Manaus/AM - <span>linox999@gmail.com</span>
-        </h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          tempore corrupti quas eum quae nulla. Cum odio non unde, natus magnam
-          deserunt, aliquam nisi corporis autem quia repellendus rem minima?
-        </p>
-        <ul>
-          <li>t</li>
-          <li>f</li>
-          <li>l</li>
-          <li>w</li>
-        </ul>
+      <main class="main">
+        <header>
+          <h1 class="main-text">
+            Lino Jorge <span> Bittencourt da Silva</span>
+          </h1>
+          <address>
+            <span> Rua felismino Soares, 46 - Manaus/AM - </span>
+            <a href="mailto:linox999@gmail.com" rel="E-mail">
+              <span class="email">E-mail: linox999@gmail.com</span>
+            </a>
+          </address>
+        </header>
+        <section class="about_me">
+          <h4>-Sobre mim-</h4>
+          <p>
+            &emsp;Eu sempre tive muita curiosidade e vontade de aprender coisas
+            novas. Desde pequeno, sempre gostei de explorar diferentes áreas de
+            conhecimento, e essa curiosidade levou-me a se interessar cada vez
+            mais por tecnologia.
+          </p>
+          <p>
+            &emsp;Com o tempo, eu fui me aprofundando no assunto e me dedicando
+            cada vez mais ao aprendizado e a aprimoramento de minhas
+            habilidades. Hoje, estou buscando minha capacitação na área de
+            tecnologia e iniciei meus estudo no curso de
+            <b>
+              <i
+                ><a
+                  class="grow"
+                  href="https://www.growdev.com.br"
+                  target="_blank"
+                  >Desenvolvimento web fullstack da Growdev</a
+                ></i
+              ></b
+            >.
+          </p>
+          <p>
+            &emsp;Em resumo, sou uma pessoa muito dedicada e comprometida em
+            minha área de atuação, que busca sempre aprender e se aprimorar em
+            busca da excelência. Além disso, sou um indivíduo sociável e
+            comunicativo, que sabe se relacionar bem com as pessoas ao seu redor
+            e contribuir positivamente para o ambiente em que trabalha.
+          </p>
+        </section>
+        <section class="social">
+          <h4>-Minhas redes sociais-</h4>
+          <nav class="btn_social">
+            <ul class="social_midia">
+              <li>
+                <a
+                  href="https://github.com/Linolonil"
+                  target="_blank"
+                  title="Github"
+                  ><img class="icon" src="assets/github.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/nolix_bittencourt/"
+                  target="_blank"
+                  title="instagram"
+                  ><img class="icon" src="assets/instagram.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/lino-bittencourt/"
+                  target="_blank"
+                  title="Linkedln"
+                  ><img class="icon" src="assets/linkedin.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/5592985515439?text=ol%C3%A1%2C+como+posso+ajudar%3F  "
+                  target="_blank"
+                  title="Whatsapp"
+                  ><img class="icon" src="assets/whatsapp.png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </section>
       </main>
     </div>
   </body>
